@@ -1,0 +1,38 @@
+/* MY CUSTOM STYLES */
+.hero-unit img {
+ width: 100%; height: auto;   
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("../img/bg3.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#eee;
+}
+.card-my {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.card-my .card-header,
+.card-my .card-footer {
+  background-color: transparent;
+}
